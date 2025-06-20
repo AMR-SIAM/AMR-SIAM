@@ -11,6 +11,22 @@
 
 ---
 
+
+### 📘 My Technical Project READMEs
+
+- 🔐 [File Encryption Tool](./project-readmes/FileEncryptionAndDecryption-readme.md)  
+  C++/Qt desktop app using AES-256-CBC with OpenSSL and PBKDF2 for secure encryption.
+
+- 💬 [Network Chat Application (TCP, HTTP, WebSocket)](./project-readmes/NetworkChatApplication-readme.md)  
+  Qt/C++ app supporting TCP, HTTP, and WebSocket protocols with a unified GUI for seamless real-time communication.
+  
+- 📝 [Remind Note Assistant](./project-readmes/RemindNoteAssistant-readme.md)  
+  C++ and Qt/QML app built for smart note-taking — offering quick text capture, real-time file-based suggestions, and a slideshow mode for fast, efficient note review.
+
+
+
+---
+
 ### Contact Me
 - **Email**: [amrmosaadsiam@gmail.com](mailto:amrmosaadsiam@gmail.com)
 
