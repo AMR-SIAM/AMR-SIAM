@@ -79,23 +79,6 @@ sequenceDiagram
     Note over TcpChatClient,TcpChatServer: Only one client per server
 ```
 
-## Protocol-Specific Documentation
-
-For in-depth, protocol-specific details—including function-by-function code walkthroughs, design notes, troubleshooting, and lessons learned—see the following dedicated documentation files:
-
-- [TCP Protocol Documentation](README_TCP.md)
-- [HTTP Protocol Documentation](README_HTTP.md)
-- [WebSocket Protocol Documentation](README_WEBSOCKET.md)
-
-Each protocol README includes:
-- An overview of the protocol's implementation in this project
-- Detailed documentation for all public and private functions in the client and server classes
-- Code snippets and logic explanations
-- Common pitfalls, best practices, and lessons learned
-- Testing and usage notes
-
-**Note:** The main README provides a high-level overview. For protocol internals, always refer to the protocol-specific files above.
-
 ## Building the Project
 
 1. **Clone or download the project**
