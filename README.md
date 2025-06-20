@@ -12,7 +12,7 @@
 ---
 
 
-### 📘 My Technical Project READMEs
+### 📘 My Technical Projects READMEs
 
 - 🔐 [File Encryption Tool](./project-readmes/FileEncryptionAndDecryption-readme.md)  
   C++/Qt desktop app using AES-256-CBC with OpenSSL and PBKDF2 for secure encryption.
