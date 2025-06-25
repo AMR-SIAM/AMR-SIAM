@@ -117,6 +117,21 @@ if (!sharedMemory.create(1)) {
 └─────────────────────────────────┘
 ```
 
+## Data Flow
+
+```mermaid
+flowchart LR
+    UI[QML Interface]-->|Create/Edit|NM[NoteManager]
+    UI-->|Monitor|FT[FileTracker]
+    
+    NM-->|Save/Load|JSON[(notes.json)]
+    FT-->|Create|FWT[FileWatcherThread]
+    FWT-->|Read|Files[(Tracked Files)]
+    FWT-->|Compare|JSON
+    
+    FWT-->|Signal|FT
+    FT-->|Notify|UI
+```
 
 ## 🔄 Event Flow Example: Keyword Match Detection
 
